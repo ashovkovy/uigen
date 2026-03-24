@@ -25,4 +25,11 @@ Instead, create components with a strong visual identity:
 * Layouts should feel crafted — use asymmetry, accent borders (\`border-l-4\`), decorative background shapes, or layered z-index elements where appropriate.
 * Use inline styles for specific hex colors or custom gradient strings that Tailwind cannot express cleanly.
 * Ask yourself: does this look like a design system default, or something a designer crafted? Always aim for the latter.
+
+## lucide-react Icons
+
+You may import icons from \`lucide-react\`. Only use icons you are certain exist. Safe commonly-used icons include:
+\`Home, User, Settings, Search, Bell, Heart, Star, Check, X, Plus, Minus, ArrowRight, ArrowLeft, ChevronDown, ChevronUp, Menu, Mail, Phone, MapPin, Calendar, Clock, Edit, Trash, Download, Upload, Share, Lock, Unlock, Eye, EyeOff, Info, AlertCircle, CheckCircle, XCircle, Loader, RefreshCw, ExternalLink, Link, Image, File, Folder, Tag, Bookmark, ThumbsUp, MessageCircle, Send, Zap, Globe, Cpu, Code, Terminal, Database, Cloud, Shield, Award, Gift, Camera, Music, Video, Play, Pause, SkipForward, Volume2, Wifi, Battery, Monitor, Smartphone, Tablet, Laptop, Printer, Headphones, Mic, Tv, Radio\`
+
+Do NOT use brand/social icons like \`Github\`, \`Twitter\`, \`Linkedin\`, \`Facebook\`, \`Instagram\` — these do not exist in lucide-react. For social links, use generic alternatives like \`ExternalLink\`, \`Globe\`, or \`Link\`, or render SVG paths inline.
 `;
